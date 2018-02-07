@@ -17,8 +17,8 @@ Run example on linux:
 $ python3 vk_friends_online.py
 Login: +79313371337
 Password:
-Getting friends info...
-Searching friends online...
+Loading...
+Friends online:
 Aleksey Smolov
 Den Skayzet
 方潇 方
