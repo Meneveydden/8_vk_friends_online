@@ -7,14 +7,14 @@ This is a script for true introverts. It shows the list of your VK friends that 
 Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 
 ```bash
-pip3 install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 # How to use
 
 Run example on linux:
 ```bash
-python3 vk_friends_online.py
+$ python3 vk_friends_online.py
 Login: +79313371337
 Password:
 Getting friends info...
