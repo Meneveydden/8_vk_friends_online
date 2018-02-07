@@ -1,15 +1,29 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+This is a script for true introverts. It shows the list of your VK friends that are online without making you log in! Just launch in and type in your login and password to VK.
 
 # How to Install
 
 Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 
 ```bash
-pip install -r requirements.txt # alternatively try pip3
+pip3 install -r requirements.txt
 ```
 
+# How to use
+
+Run example on linux:
+```bash
+python3 vk_friends_online.py
+Login: +79313371337
+Password:
+Getting friends info...
+Searching friends online...
+Aleksey Smolov
+Den Skayzet
+方潇 方
+...
+```
 Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
 
 # Project Goals
