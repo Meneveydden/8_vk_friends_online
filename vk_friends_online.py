@@ -12,7 +12,7 @@ def get_user_password():
     return password
 
 
-def get_user_friends_info(login, password, app_id):
+def get_online_friends_info(login, password, app_id):
     session = vk.AuthSession(
         app_id=app_id,
         user_login=login,
@@ -20,7 +20,9 @@ def get_user_friends_info(login, password, app_id):
         scope="friends"
     )
     api = vk.API(session)
-    return api.friends.get(fields="first_name, last_name", order="name")
+    online_friends_ids = api.friends.getOnline()
+    online_friends = api.users.get(user_ids=online_friends_ids)
+    return online_friends
 
 
 def print_online_friends(friens_info):
