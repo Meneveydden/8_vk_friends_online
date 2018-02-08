@@ -28,7 +28,7 @@ def get_online_friends_info(login, password, app_id):
 
 def print_online_friends(friens_info):
     for user in friens_info:
-            print(user["first_name"], user["last_name"])
+        print(user["first_name"], user["last_name"])
 
 
 if __name__ == "__main__":
